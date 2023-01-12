@@ -1,0 +1,519 @@
+Exception on /api/posts/1 [GET]
+Traceback (most recent call last):
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\api\views.py", line 20, in api_post
+    list_post = post.get_post_by_pk(post_id)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\Class\Post.py", line 48, in get_post_by_pk
+    data = self.get_posts_all()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\Class\Post.py", line 15, in get_posts_all
+    with open(self.path_file, "r", encoding="utf-8") as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './data/posts.json'
+Exception on /api/posts [GET]
+Traceback (most recent call last):
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\api\views.py", line 14, in api_posts
+    posts = post.get_posts_all()
+            ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\Class\Post.py", line 15, in get_posts_all
+    with open(self.path_file, "r", encoding="utf-8") as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './data/posts.json'
+Exception on /api/posts [GET]
+Traceback (most recent call last):
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\api\views.py", line 14, in api_posts
+    posts = post.get_posts_all()
+            ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\Class\Post.py", line 15, in get_posts_all
+    with open(self.path_file, "r", encoding="utf-8") as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './data/posts.json'
+Exception on /api/posts [GET]
+Traceback (most recent call last):
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\api\views.py", line 14, in api_posts
+    posts = post.get_posts_all()
+            ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\Class\Post.py", line 15, in get_posts_all
+    with open(self.path_file, "r", encoding="utf-8") as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './data/posts.json'
+Exception on /api/posts/1 [GET]
+Traceback (most recent call last):
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\main_file.py", line 69, in api_post
+    list_post = post.get_post_by_pk(post_id)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\Class\PostDAO.py", line 48, in get_post_by_pk
+    data = self.get_posts_all()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\Class\PostDAO.py", line 15, in get_posts_all
+    with open(self.path_file, "r", encoding="utf-8") as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/posts.json'
+Exception on /api/posts/1 [GET]
+Traceback (most recent call last):
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\main_file.py", line 69, in api_post
+    list_post = post.get_post_by_pk(post_id)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\Class\PostDAO.py", line 48, in get_post_by_pk
+    data = self.get_posts_all()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\Class\PostDAO.py", line 15, in get_posts_all
+    with open(self.path_file, "r", encoding="utf-8") as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/posts.json'
+Exception on /api/posts/1 [GET]
+Traceback (most recent call last):
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\main_file.py", line 69, in api_post
+    list_post = post.get_post_by_pk(post_id)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\Class\PostDAO.py", line 48, in get_post_by_pk
+    data = self.get_posts_all()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\Class\PostDAO.py", line 15, in get_posts_all
+    with open(self.path_file, "r", encoding="utf-8") as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/posts.json'
+Exception on /api/posts [GET]
+Traceback (most recent call last):
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\main_file.py", line 63, in api_posts
+    posts = post.get_posts_all()
+            ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\Class\PostDAO.py", line 15, in get_posts_all
+    with open(self.path_file, "r", encoding="utf-8") as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/posts.json'
+Exception on /api/posts/1 [GET]
+Traceback (most recent call last):
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\main_file.py", line 70, in api_post
+    list_post = post.get_post_by_pk(post_id)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\Class\PostDAO.py", line 48, in get_post_by_pk
+    data = self.get_posts_all()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\Class\PostDAO.py", line 15, in get_posts_all
+    with open(self.path_file, "r", encoding="utf-8") as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './data/posts.json'
+Exception on /api/posts [GET]
+Traceback (most recent call last):
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\api\views.py", line 14, in api_posts
+    posts = post.get_posts_all()
+            ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\Class\PostDAO.py", line 15, in get_posts_all
+    with open(self.path_file, "r", encoding="utf-8") as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './data/posts.json'
+Exception on /api/posts/1 [GET]
+Traceback (most recent call last):
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\api\views.py", line 20, in api_post
+    list_post = post.get_post_by_pk(post_id)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\Class\PostDAO.py", line 48, in get_post_by_pk
+    data = self.get_posts_all()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\Class\PostDAO.py", line 15, in get_posts_all
+    with open(self.path_file, "r", encoding="utf-8") as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './data/posts.json'
+Exception on /api/posts [GET]
+Traceback (most recent call last):
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\main1.py", line 49, in api_posts
+    posts = post.get_posts_all()
+            ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\Class\PostDAO.py", line 15, in get_posts_all
+    with open(self.path_file, "r", encoding="utf-8") as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './data/posts.json'
+Exception on /api/posts/1 [GET]
+Traceback (most recent call last):
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\main1.py", line 55, in api_post
+    list_post = post.get_post_by_pk(post_id)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\Class\PostDAO.py", line 48, in get_post_by_pk
+    data = self.get_posts_all()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\Class\PostDAO.py", line 15, in get_posts_all
+    with open(self.path_file, "r", encoding="utf-8") as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './data/posts.json'
+Exception on /api/posts/1 [GET]
+Traceback (most recent call last):
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\main1.py", line 55, in api_post
+    list_post = post.get_post_by_pk(post_id)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\Class\PostDAO.py", line 48, in get_post_by_pk
+    data = self.get_posts_all()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\Class\PostDAO.py", line 15, in get_posts_all
+    with open(self.path_file, "r", encoding="utf-8") as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './data/posts.json'
+Exception on /api/posts/1 [GET]
+Traceback (most recent call last):
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\main1.py", line 55, in api_post
+    list_post = post.get_post_by_pk(post_id)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\Class\PostDAO.py", line 48, in get_post_by_pk
+    data = self.get_posts_all()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\Class\PostDAO.py", line 15, in get_posts_all
+    with open(self.path_file, "r", encoding="utf-8") as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './data/posts.json'
+Exception on /api/posts/1 [GET]
+Traceback (most recent call last):
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\main1.py", line 55, in api_post
+    list_post = post.get_post_by_pk(post_id)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\Class\PostDAO.py", line 48, in get_post_by_pk
+    data = self.get_posts_all()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\Class\PostDAO.py", line 15, in get_posts_all
+    with open(self.path_file, "r", encoding="utf-8") as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './data/posts.json'
+Exception on /api/posts [GET]
+Traceback (most recent call last):
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\main1.py", line 49, in api_posts
+    posts = post.get_posts_all()
+            ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\Class\PostDAO.py", line 15, in get_posts_all
+    with open(self.path_file, "r", encoding="utf-8") as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './data/posts.json'
+Exception on /api/posts/1 [GET]
+Traceback (most recent call last):
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\main1.py", line 55, in api_post
+    list_post = post.get_post_by_pk(post_id)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\Class\PostDAO.py", line 48, in get_post_by_pk
+    data = self.get_posts_all()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\Class\PostDAO.py", line 15, in get_posts_all
+    with open(self.path_file, "r", encoding="utf-8") as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './data/posts.json'
+Exception on /api/posts/1 [GET]
+Traceback (most recent call last):
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\main1.py", line 55, in api_post
+    list_post = post.get_post_by_pk(post_id)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\Class\PostDAO.py", line 48, in get_post_by_pk
+    data = self.get_posts_all()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\Class\PostDAO.py", line 15, in get_posts_all
+    with open(self.path_file, "r", encoding="utf-8") as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './data/posts.json'
+Exception on /api/posts [GET]
+Traceback (most recent call last):
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\main1.py", line 49, in api_posts
+    posts = post.get_posts_all()
+            ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\Class\PostDAO.py", line 15, in get_posts_all
+    with open(self.path_file, "r", encoding="utf-8") as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './data/posts.json'
+Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\main\views.py", line 16, in page_index
+    posts = post.get_posts_all()
+            ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\Class\PostDAO.py", line 15, in get_posts_all
+    with open(self.path_file, "r", encoding="utf-8") as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './data/posts.json'
+Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\main\views.py", line 16, in page_index
+    posts = post.get_posts_all()
+            ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\Class\PostDAO.py", line 15, in get_posts_all
+    with open(self.path_file, "r", encoding="utf-8") as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './data/posts.json'
+Exception on /api/posts [GET]
+Traceback (most recent call last):
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\venv\Lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\main1.py", line 49, in api_posts
+    posts = post.get_posts_all()
+            ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\olejj\PycharmProjects\Ñourse_work3\Class\PostDAO.py", line 15, in get_posts_all
+    with open(self.path_file, "r", encoding="utf-8") as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './data/posts.json'

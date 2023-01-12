@@ -1,0 +1,6 @@
+/tests/.pytest_cache/
+/.pytest_cache/
+/coursework2_source/
+#не знаю лучше папку с картинками добавлять в игнор?
+#/static/image/
+/venv/
